@@ -1,0 +1,30 @@
+[project]
+name = "webpage-sql"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "satsanthony",email = "sats.anthony@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+langchain-core = "^0.3.29"
+numpy = ">=1.26.0,<2.0.0"
+langchain-tests = "^0.3.7"
+langchain-pinecone = "0.2.2"
+langchain-anthropic = "^0.3.5"
+python-dotenv = "^1.0.1"
+typing-extensions = "^4.12.2"
+langgraph = "^0.2.69"
+langchain = "^0.3.19"
+anthropic = "^0.47.2"
+openevals = "^0.0.7"
+openai = "^1.68.2"
+fastapi = "^0.115.0"
+uvicorn = "^0.32.0"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

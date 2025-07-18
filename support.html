@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RoboKitchen AI Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="styles.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <i class="fas fa-robot"></i> RoboKitchen AI
+        </div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <main class="support-main">
+        <h1>Customer Support</h1>
+        <div class="ai-assistant-container">
+            <div class="ai-chat-box" id="chatBox">
+                <div class="ai-message">Hello! I'm your RoboKitchen AI assistant. How can I help you today?</div>
+            </div>
+            <form id="chatForm" class="chat-form">
+                <input type="text" id="userInput" placeholder="Type your question..." autocomplete="off" required>
+                <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+            <button id="displayBtn">Display Chat History</button>
+            <div id="historyTable"></div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <span>&copy; 2024 RoboKitchen AI. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="support.js"></script>
+</body>
+</html>
